@@ -61,7 +61,7 @@ jobs:
         with:
           repository: bdellagiusta/dj3-api-web
           path: rustdesk-api-web
-          ref: master
+          ref: main
 
       - name: Set up Go environment
         uses: actions/setup-go@v4
