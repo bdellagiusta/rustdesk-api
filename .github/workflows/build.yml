@@ -147,7 +147,7 @@ jobs:
 
       - name: Generate Changelog
         if: startsWith(github.ref, 'refs/tags/') && github.event_name == 'push'
-        run: npx changelogithub v1.2.2 # or changelogithub@0.12 if ensure the stable result
+        run: npx changelogithub v1.2.3 # or changelogithub@0.12 if ensure the stable result
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
